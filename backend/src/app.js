@@ -15,8 +15,7 @@ const app = express();
 app.use(cors({
  origin:[
   "http://localhost:5173",
-   "https://project-managment-system-818y.vercel.app",
-    "https://project-managment-system-4lcm55oii-anshi.vercel.app"
+   "project-managment-system-si4m.vercel.app"
   
  ],
  credentials:true

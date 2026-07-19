@@ -25,7 +25,7 @@ const io = new Server(server, {
 cors:{
    origin:[
     "http://localhost:5173",
-    "https://project-managment-system-818y.vercel.app",
+    "project-managment-system-si4m.vercel.app",
     
    ],
    methods:[
