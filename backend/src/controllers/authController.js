@@ -58,6 +58,7 @@ const user = await User.create({
       token,
       user,
     });
+
   } catch (error) {
     res.status(500).json({
       message:
@@ -106,6 +107,9 @@ export const login = async (
         user._id,
         user.role
       );
+
+      
+
 
     res.status(200).json({
       success: true,

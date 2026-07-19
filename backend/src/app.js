@@ -10,12 +10,6 @@ import notificationRoutes from "./routes/notificationRoutes.js";
 import managerRoutes from "./routes/managerRoutes.js";
 import analyticsRoutes from "./routes/analyticsRoutes.js";
 import employeeRoutes from "./routes/employeeRoutes.js";
-
-
-
-
-
-
 const app = express();
 
 app.use(cors({
